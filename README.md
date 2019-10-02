@@ -7,7 +7,7 @@
 
 This component allows the user to swipe left and right through pages of data. Under the hood it is using the native [Android ViewPager](https://developer.android.com/reference/android/support/v4/view/ViewPager) and the [iOS UIPageViewController](https://developer.apple.com/documentation/uikit/uipageviewcontroller) implementations.
 
-![](viewpager.gif)
+<img src="docs/viewpager-logo.png" alt="ViewPager" width="500" height="500">
 
 ## Getting started
 
@@ -109,3 +109,7 @@ const styles = StyleSheet.create({
 |`keyboardDismissMode: ('none' / 'on-drag')`| Determines whether the keyboard gets dismissed in response to a drag|both
 |`orientation: Orientation`|Set `horizontal` or `vertical` scrolling orientation|iOS
 |`transitionStyle: TransitionStyle`|Use `scroll` or `curl` to change transition style|iOS
+
+## Preview
+
+![](docs/viewpager.gif)
